@@ -1,0 +1,118 @@
+* {
+    font-family: Sofia Pro;
+    font-weight: 300;
+
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+
+}
+
+p, li, h1, h2, h3, h4 {
+    color: darkslategray;
+
+}
+
+body {
+    background-color: azure;
+}
+
+
+
+.wrapper{
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+header {
+    background-color: black;
+    padding: 10px 0px;
+}
+
+.logo{
+	margin: 0;
+    background: url(logo.png);
+    background-size: 70px 70px;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+header nav {
+    float: right;
+}
+
+header:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header nav li {
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+header nav li a:hover{
+    color: red;
+}
+
+.welcome{
+    height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+h1{
+    margin: 0;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.small{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.base{
+    display: flex;
+}
+
+.img{
+    padding-top: 100px;
+}
+
+.small2{
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+.big{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.base2{
+    display: flex;
+    flex-direction: row-reverse;
+}
